@@ -71,12 +71,20 @@
   }
 
   .lead{
-    color: rgb(169, 166, 166)
+    color: rgb(169, 166, 166);
+    
+  }
+
+  @media (max-width: 400px) {
+    .lead{
+      width: 80%;
+      
+    }
   }
 
 .down-arrow {
     position: absolute;
-    top: calc(100vh - 80px);
+    top: calc(100vh - 100px);
     left: calc(50% - 14px);
     width: 0;
     height: 30px;
