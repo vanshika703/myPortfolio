@@ -1,6 +1,6 @@
 *{
     font-family: 'Poppins', sans-serif;
-
+    color: rgb(228, 228, 228);
 }
 
 .bold{
@@ -31,38 +31,21 @@
     }
 }
 .navbar{
-    background-color: #000!important;
-    
-    padding: 10px 32px;
+     background-color: #000!important;
+    color: rgb(228, 228, 228);
+    padding: 12px 20px;
 }
 
-nav .navbar-nav li a{
-  color: rgb(228, 228, 228);
-  transition: all 1s ease;
-  }
-
-nav .navbar-nav li a:hover{
-  background: rgb(255,170,230);
-  background: linear-gradient(90deg, rgb(250, 128, 214) 0%,rgb(192, 114, 253)29%,rgb(106, 193, 252) 67%, rgb(104, 240, 250) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
-
-  font-weight: 600;
-}
-  }
-
-.nav-item{
+.nav-item {
   padding: 0 16px;
-
 }
 
 #home{
     display: flex;
     justify-content: center;
-    color: rgb(228, 228, 228);
-    background: #000;
-    height: 92vh;
+    
+    height: 100vh;
+    background-color: #000!important;
 }
 
 .jumbotron{
@@ -138,4 +121,10 @@ nav .navbar-nav li a:hover{
 
 .reactjs-span{
     font-size: 28px;
+}
+
+#experience{
+  height: 100vh;
+  padding: 16px;
+  background-color: #000!important;
 }
