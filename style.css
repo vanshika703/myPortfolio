@@ -26,8 +26,11 @@
     0% {
         background-position: 0% 50%;
     }
+    50%{
+      background-position: 50% 100%;
+    }
     100% {
-        background-position: 50% 100%;
+        background-position: 100% 50%;
     }
 }
 .navbar{
@@ -53,7 +56,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: 6vh;
+    margin-top: 2vh;
 }
 
 .reactjs{
@@ -84,7 +87,7 @@
 
 .down-arrow {
     position: absolute;
-    top: calc(100vh - 100px);
+    top: calc(100vh - 120px);
     left: calc(50% - 14px);
     width: 0;
     height: 30px;
@@ -135,4 +138,20 @@
   height: 100vh;
   padding: 16px;
   background-color: #000!important;
+}
+
+.timeline{
+  position: relative;
+}
+
+.timeline::before{
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 5px;
+  background-color: white;
+  height: 100%;
 }
