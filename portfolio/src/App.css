@@ -7,11 +7,9 @@
 h1 {
     background: linear-gradient(90deg, rgba(59,178,226,1) 0%, rgba(228,90,177,1) 100%);
     -webkit-background-clip: text;
-    -webkit-text-stroke: 4px transparent;
+    -webkit-text-stroke: 3px transparent;
     color: black; /* fallback for old browsers */
-
-
-  }
+}
 
   #mouse-scroll{
     position: absolute;

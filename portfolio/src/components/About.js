@@ -3,9 +3,9 @@ import React from "react";
 const About = () => {
   return (
     <div className="h-screen w-screen bg-black flex flex-col justify-center items-center">
-      <p className="text-slate-300 sm:text-[2rem] font-medium">
+      <p className="text-slate-300 font-medium text-[2rem] w-2/3 sm:w-auto">
         I can help you craft a <span className="italic">stunning website</span>
-        <br></br> that effectively showcases your products or services,<br></br>{" "}
+        <br  className="sm:block hidden"></br> that effectively showcases your products or services,<br></br>{" "}
         whether you're an individual or a business.
       </p>
       {/*       <p className="text-slate-300 text-lg w-6/12">

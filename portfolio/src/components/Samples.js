@@ -1,17 +1,20 @@
 import React from "react";
+import youtube from "../img/work1.png";
 
 const Samples = () => {
   return (
-    <div className="h-screen w-screen bg-black flex flex-col justify-center items-center">
-      <p className="text-slate-300 text-3xl font-medium">Don't believe me?</p>
-      {/*       <p className="text-slate-300 text-lg w-6/12">
-      With a focus on creating a seamless user experience, my websites boast a
-      visually appealing UI that is both user-friendly and mobile responsive.
-      By partnering with me, you can expect a website that not only captivates
-      your audience but also generates better traffic and leads for your
-      business. Let's collaborate to create an impressive online presence that
-      drives your success.
-    </p> */}
+    <div className="h-screen w-screen bg-black text-center">
+      <p className="text-slate-300 font-medium text-[2rem]">
+        Don't believe me?
+      </p>
+      <div className="flex flex-wrap justify-center items-center">
+        <img src={youtube} alt="projects" className="w-96 h-52 rounded m-5" />
+        <img src={youtube} alt="projects" className="w-96 h-52 rounded m-5" />
+        <img src={youtube} alt="projects" className="w-96 h-52 rounded m-5" />
+        <img src={youtube} alt="projects" className="w-96 h-52 rounded m-5" />
+        <img src={youtube} alt="projects" className="w-96 h-52 rounded m-5" />
+        <img src={youtube} alt="projects" className="w-96 h-52 rounded m-5" />
+      </div>
     </div>
   );
 };
