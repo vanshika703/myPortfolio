@@ -111,3 +111,19 @@ h1 {
       opacity: 1;
     }
   }
+
+  .-color-blue {
+    color:  rgba(59,178,226,1) }
+
+    .-color-purple {
+      color:  #926dd1 }
+
+      .-color-pink {
+        color: rgba(228,90,177,1) }
+
+    
+  
+    
+.-sm{
+  font-size: 10px;
+}

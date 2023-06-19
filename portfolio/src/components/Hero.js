@@ -17,7 +17,19 @@ const Hero = () => {
         data-aos-easing="linear"
         data-aos-duration="1500"
       >
-        Vanshika <br className="block sm:hidden"></br>Bhojnagarwala
+        <span data-cursor-text="Designer" data-cursor="-color-blue">
+          Van
+        </span>
+        <span data-cursor-text="Developer" data-cursor="-color-purple">
+          shika <br className="block sm:hidden"></br>
+          Bhoj
+        </span>
+        <span data-cursor-text="Traveller" data-cursor="-color-pink">
+          nagar
+        </span>
+        <span data-cursor-text="and more!" data-cursor="-color-pink">
+          wala
+        </span>
       </h1>
       <div id="mouse-scroll">
         <span class="down-arrow-1"></span>

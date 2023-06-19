@@ -36,6 +36,7 @@ const Samples = () => {
             data-aos="zoom-in-up"
             data-aos-easing="linear"
             data-aos-duration="1500"
+            data-cursor-text="Personal Website"
           />
         </a>
         <a href="https://y0utub.netlify.app/" target="_blank">
@@ -46,6 +47,7 @@ const Samples = () => {
             data-aos="zoom-in-up"
             data-aos-easing="linear"
             data-aos-duration="1500"
+            data-cursor-text="Movie Streaming Website"
           />
         </a>
         <a href="https://awesome-toast-app.netlify.app" target="_blank">
@@ -56,6 +58,7 @@ const Samples = () => {
             data-aos="zoom-in-up"
             data-aos-easing="linear"
             data-aos-duration="1500"
+            data-cursor-text="Food Ordering Web App"
           />
         </a>
 
@@ -67,6 +70,7 @@ const Samples = () => {
             data-aos="zoom-in-up"
             data-aos-easing="linear"
             data-aos-duration="1500"
+            data-cursor-text="Food Delivery Website"
           />
         </a>
         <a href="https://roc8-chessboard.netlify.app/" target="_blank">
@@ -77,6 +81,7 @@ const Samples = () => {
             data-aos="zoom-in-up"
             data-aos-easing="linear"
             data-aos-duration="1500"
+            data-cursor-text="Knight Moves Chess App"
           />
         </a>
 
@@ -88,6 +93,7 @@ const Samples = () => {
             data-aos="zoom-in-up"
             data-aos-easing="linear"
             data-aos-duration="1500"
+            data-cursor-text="Multi Page Custom Form"
           />
         </a>
         <a
@@ -101,6 +107,7 @@ const Samples = () => {
             data-aos="zoom-in-up"
             data-aos-easing="linear"
             data-aos-duration="1500"
+            data-cursor-text="Candle Website UI design"
           />
         </a>
         <a
@@ -114,6 +121,8 @@ const Samples = () => {
             data-aos="zoom-in-up"
             data-aos-easing="linear"
             data-aos-duration="1500"
+            data-cursor-text="Bakery Website UI design"
+
           />
         </a>
       </div>

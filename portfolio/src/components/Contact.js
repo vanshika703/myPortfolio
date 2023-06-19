@@ -45,9 +45,18 @@ const Contact = () => {
           data-aos-easing="linear"
           data-aos-duration="1500"
         >
-          <img src={twitter} alt="social" className="w-6 h-6 m-2" />
-          <img src={linkedin} alt="social" className="w-6  h-6 m-2" />
-          <img src={instagram} alt="social" className="w-6 h-6  m-2" />
+          <a href="https://twitter.com/vanshikabh703" target="_blank">
+            <img src={twitter} alt="social" className="w-6 h-6 m-2" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/vanshika-bhojnagarwala/"
+            target="_blank"
+          >
+            <img src={linkedin} alt="social" className="w-6  h-6 m-2" />
+          </a>
+          <a href="https://www.instagram.com/vanshika_703/" target="_blank">
+            <img src={instagram} alt="social" className="w-6 h-6  m-2" />
+          </a>
         </div>
       </div>
     </div>
