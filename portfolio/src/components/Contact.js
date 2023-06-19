@@ -12,10 +12,12 @@ const Contact = () => {
       </p>
 
       <div className="flex justify-around items-center sm:flex-row flex-col">
-        <button className="text-slate-300 font-medium text-[1.4rem]">
-          Schedule a call today
-        </button>
-        <p className="text-slate-300 text-[1.4rem] px-10">
+        <a href="https://calendly.com/vanshikabhojnagarwala/30min" target="_blank">
+          <button className="text-slate-300 font-medium text-[1.4rem] underline">
+            Schedule a call today
+          </button>
+        </a>
+        <p className="text-slate-300 sm:text-[1.4rem] text-[1rem] px-10">
           vanshikabhojnagarwala2000@gmail.com
         </p>
 
