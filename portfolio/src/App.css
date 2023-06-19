@@ -116,12 +116,12 @@ h1 {
     color:  rgba(59,178,226,1) }
 
     .-color-purple {
-      color:  #926dd1 }
+      color:  #926dd1!important }
 
       .-color-pink {
-        color: rgba(228,90,177,1) }
+        color: rgba(228,90,177,1)!important }
 
-    
+
   
     
 .-sm{
