@@ -32,7 +32,7 @@ const Samples = () => {
           <img
             src={work6}
             alt="projects"
-            className="w-96 h-48 rounded m-5"
+            className="sm:w-96 w-[80%] h-48 rounded sm:m-5 mx-auto my-2"
             data-aos="zoom-in-up"
             data-aos-easing="linear"
             data-aos-duration="1500"
@@ -43,7 +43,7 @@ const Samples = () => {
           <img
             src={work1}
             alt="projects"
-            className="w-96 h-48 rounded m-5"
+            className="sm:w-96 w-[80%] h-48 rounded sm:m-5 mx-auto my-2"
             data-aos="zoom-in-up"
             data-aos-easing="linear"
             data-aos-duration="1500"
@@ -54,7 +54,7 @@ const Samples = () => {
           <img
             src={work3}
             alt="projects"
-            className="w-96 h-48 rounded m-5"
+            className="sm:w-96 w-[80%] h-48 rounded sm:m-5 mx-auto my-2"
             data-aos="zoom-in-up"
             data-aos-easing="linear"
             data-aos-duration="1500"
@@ -66,7 +66,7 @@ const Samples = () => {
           <img
             src={work2}
             alt="projects"
-            className="w-96 h-48 rounded m-5"
+            className="sm:w-96 w-[80%] h-48 rounded sm:m-5 mx-auto my-2"
             data-aos="zoom-in-up"
             data-aos-easing="linear"
             data-aos-duration="1500"
@@ -77,7 +77,7 @@ const Samples = () => {
           <img
             src={work5}
             alt="projects"
-            className="w-96 h-48 rounded m-5"
+            className="sm:w-96 w-[80%] h-48 rounded sm:m-5 mx-auto my-2"
             data-aos="zoom-in-up"
             data-aos-easing="linear"
             data-aos-duration="1500"
@@ -89,7 +89,7 @@ const Samples = () => {
           <img
             src={work7}
             alt="projects"
-            className="w-96 h-48 rounded m-5"
+            className="sm:w-96 w-[80%] h-48 rounded sm:m-5 mx-auto my-2"
             data-aos="zoom-in-up"
             data-aos-easing="linear"
             data-aos-duration="1500"
@@ -103,7 +103,7 @@ const Samples = () => {
           <img
             src={work8}
             alt="projects"
-            className="w-96 h-56 rounded m-5"
+            className="sm:w-96 w-[80%] h-48 rounded sm:m-5 mx-auto my-2"
             data-aos="zoom-in-up"
             data-aos-easing="linear"
             data-aos-duration="1500"
@@ -117,12 +117,11 @@ const Samples = () => {
           <img
             src={work4}
             alt="projects"
-            className="w-96 h-56 rounded m-5"
+            className="sm:w-96 w-[80%] h-48 rounded sm:m-5 mx-auto my-2"
             data-aos="zoom-in-up"
             data-aos-easing="linear"
             data-aos-duration="1500"
             data-cursor-text="Bakery Website UI design"
-
           />
         </a>
       </div>
