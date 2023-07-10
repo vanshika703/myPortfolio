@@ -103,7 +103,7 @@ const Samples = () => {
           <img
             src={work8}
             alt="projects"
-            className="sm:w-96 w-[80%] h-48 rounded sm:m-5 mx-auto my-2"
+            className="sm:w-96 min-w-[80%] h-48 rounded sm:m-5 mx-auto my-2"
             data-aos="zoom-in-up"
             data-aos-easing="linear"
             data-aos-duration="1500"
@@ -117,7 +117,7 @@ const Samples = () => {
           <img
             src={work4}
             alt="projects"
-            className="sm:w-96 w-[80%] h-48 rounded sm:m-5 mx-auto my-2"
+            className="sm:w-96 min-w-[90%] h-48 rounded sm:m-5 mx-auto my-2"
             data-aos="zoom-in-up"
             data-aos-easing="linear"
             data-aos-duration="1500"
