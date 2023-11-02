@@ -7,6 +7,7 @@ import work5 from "../img/work5.png";
 import work6 from "../img/work6.png";
 import work7 from "../img/work7.png";
 import work8 from "../img/work8.png";
+import work9 from "../img/work9.png";
 
 const Samples = () => {
   return (
@@ -28,6 +29,17 @@ const Samples = () => {
         have a look 👀
       </p>
       <div className="flex flex-wrap justify-center items-center mt-10">
+        <a href="https://thelosthostels.com/" target="_blank">
+          <img
+            src={work9}
+            alt="projects"
+            className="sm:w-96 w-[80%] h-48 rounded sm:m-5 mx-auto my-2"
+            data-aos="zoom-in-up"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+            data-cursor-text="Hostel Website"
+          />
+        </a>
         <a href="https://www.jiteshagrawal.com/" target="_blank">
           <img
             src={work6}
