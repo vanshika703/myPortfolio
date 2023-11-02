@@ -37,7 +37,7 @@ const Samples = () => {
             data-aos="zoom-in-up"
             data-aos-easing="linear"
             data-aos-duration="1500"
-            data-cursor-text="Hostel Website"
+            data-cursor-text="The Lost Hostels Website"
           />
         </a>
         <a href="https://www.jiteshagrawal.com/" target="_blank">
